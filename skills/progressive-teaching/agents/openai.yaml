@@ -1,0 +1,6 @@
+interface:
+  display_name: "循序渐进讲解"
+  short_description: "沿用熟悉例子，从具体问题引出新概念，用局部改动和结果解释技术知识"
+  default_prompt: "用 $progressive-teaching 从我已有的代码或理解出发，循序渐进地讲解这个问题。"
+policy:
+  allow_implicit_invocation: true
